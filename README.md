@@ -43,10 +43,10 @@ This project was created on a fresh machine with Maui project created from Visua
 Videos above shown on Android Emulator_31. My origonal project were showing issues on Android phisical devices A22, J5 and J6
 
 
-dotnet --list-sdks
+### dotnet --list-sdks
 7.0.102 [C:\Program Files\dotnet\sdk]
 
-dotnet workload list
+### dotnet workload list
 
 Installed Workload Id      Manifest Version       Installation Source
 ---------------------------------------------------------------------
