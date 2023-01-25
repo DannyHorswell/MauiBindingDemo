@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentView    x:Class="MauiApp1.VerticalView"
+                xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                xmlns:classes="clr-namespace:MauiApp1.Classes"
+                xmlns:local="clr-namespace:MauiApp1">
+    <!--x:DataType="classes:VerticalObjectCollection" >-->
+    <Grid >
+        <VerticalStackLayout Margin="10" >
+            <HorizontalStackLayout >
+                <Label Text="Vertical item count" Margin="5"></Label>
+                <Label Text="{Binding Count}" Margin="5"></Label>
+                <Button Text="Add vertical" Margin="5" Clicked="AddVerticalButton_Clicked"></Button>
+            </HorizontalStackLayout>
+            <CollectionView VerticalOptions="Center" HorizontalOptions="Center" ItemsSource="{Binding }" >
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout Margin="10" BackgroundColor="Aquamarine"  >
+                                <local:HorozontalView BindingContext="{Binding HozItems}" />
+                                <Button Text="Delete vertical" Margin="5" Clicked="DeleteVerticalButton_Clicked"></Button>
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </VerticalStackLayout>
+    </Grid>
+</ContentView>

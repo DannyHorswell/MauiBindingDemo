@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentView 
+    x:Class="MauiApp1.ItemView"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:classes="clr-namespace:MauiApp1.Classes"
+             xmlns:local="clr-namespace:MauiApp1"
+             x:DataType="classes:Item">
+
+    <Border x:Name="ImageBorder" Background="{StaticResource Cyan300Accent}" >
+        <VerticalStackLayout>
+            <Label Text="{Binding Name}" HorizontalOptions="Center" />
+            <!--<Image Margin="5" Source="https://aaaf.org.uk/wp-content/uploads/2013/03/image-alignment-150x150.jpg" />-->
+        </VerticalStackLayout>
+    </Border>
+</ContentView>
