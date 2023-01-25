@@ -31,6 +31,8 @@ https://danny-smilecomputersolutions.tinytake.com/msc/NzgxODU4MV8yMDg3NzQzNg
 
 # Going wrong
 
+Binding fails whene interacing to model from another content page
+
 https://danny-smilecomputersolutions.tinytake.com/msc/NzgxODYzMV8yMDg3NzUxNg
 
 
