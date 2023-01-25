@@ -1,7 +1,7 @@
 # MauiBindingDemo
 #App to demonstrate Maui binding issue
 
-##Description of project
+## Description of project
 
 This project is a minimisation of a project I have been working on that was not working right.
 
@@ -23,18 +23,18 @@ There are 2 content pages, TestContentPage1 contains a view similar to the origi
 The 2nd page is a duplicate of TestContentPage2, that also allows modification of the model.
 
 
-##Workign nicely
+## Workign nicely
 
 If you run the app and just use the firat page, all workes nicely.
 
 https://danny-smilecomputersolutions.tinytake.com/msc/NzgxODU4MV8yMDg3NzQzNg
 
-#Gouing wrong
+# Going wrong
 
 https://danny-smilecomputersolutions.tinytake.com/msc/NzgxODYzMV8yMDg3NzUxNg
 
 
-#Version
+# Versions
 
 This project was created on a fresh machine with Maui project created from Visual Studio 17.4.4, Version shown below.
 
